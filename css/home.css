@@ -1,0 +1,107 @@
+.top-bar{
+  height: 40px;
+  /* padding: 0px 50px 0px 50px !important; */
+  background-image: url(../images/images.jpeg);
+  
+}
+.top-bar small{
+  margin:0px 130px 0px 130px;
+}
+
+
+.navbar{
+  height: 120px;
+  padding: 0 130px 0 130px !important;  
+}
+.navbar .navbar-nav{
+  display: flex;
+  gap: 50px !important;
+  font-family: 'Assistant', sans-serif;
+}
+
+.header-section {
+    background-image: url('../images/churchimage.webp');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+  }
+  
+  .header-section h1{
+    font-size: 55px;
+    font-weight: 1000px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.18;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    width: 1000px;
+  }
+
+  .header-section p{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    word-spacing: 0.01em;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    margin: 27px 0px 0px;
+    padding: 0px 70px;
+  }
+
+  .header-section a{
+    font-family: 'Assistant', sans-serif;
+  }
+
+
+  .header-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-section .content {
+    z-index: 1;
+    max-width: 900px;
+  }
+
+  .countdown-section{
+    position: relative;
+    /* height: 50px; */
+  }
+
+  .countdown-section section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .countdown-section section .container{
+    width: 1300px;
+    height: 160px;
+    background-color: rgb(238, 237, 237);
+  }
+
+  .countdown-section section .container h5{
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+  }
+
+  .countdown-section section .container p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 12px;
+  }
+  
+  .date-box {
+    width: 60px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  .top-bar i {
+    margin-right: 5px;
+  }
+  

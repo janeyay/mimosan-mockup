@@ -1,0 +1,43 @@
+#sermons-section{
+    background: #eeeeee;
+    padding-top: 50px;
+  }
+
+  #sermons-section h2{
+    font-family: 'Assistant', sans-serif;
+  } 
+
+  #sermons-section p{
+    font-family: 'Old Standard TT', serif;
+  } 
+
+#sermons-section .sermon-title {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+#sermons-section .pastor {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    color: #d9534f;
+}
+#sermons-section .categories {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    color: #d9534f;
+    line-height: 5px;
+}
+#sermons-section .icon-list i {
+    font-size: 1.2rem;
+    margin: 0 10px;
+    color: #6c757d;
+}
+#sermons-section .card {
+    border: none;
+    background: #fff;
+    border-radius: 0px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.05); */
+}
+#sermons-section .card .card-body{
+    padding: 20px;
+}
