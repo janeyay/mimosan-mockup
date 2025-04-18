@@ -24,6 +24,10 @@
     background: #fff;
   }
 
+  #event-section .row{
+    /* gap: 1px; */
+  }
+
   .event-info {
     padding: 20px;
   }

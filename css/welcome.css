@@ -1,24 +1,24 @@
-body {
+/* body {
   font-family: 'Assistant', sans-serif;
   background-color: #fff;
   color: #333;
-  }
+  } */
 
-.welcome-container{
+#welcome-section .welcome-container{
   margin-top: 130px;
   padding: 0px 130px 50px 130px;
 }
 
-.welcome-container .welcome-container-content {
+#welcome-section .welcome-container .welcome-container-content {
   /* margin: 0px 50px 0px 50px; */
 }
 
-.welcome-container .welcome-container-content .img-fluid{
+#welcome-section .welcome-container .welcome-container-content .img-fluid{
 /* width: 90%; */
 /* padding-left: 60px; */
 }
 
-.welcome-container .welcome-container-content .welcome-text p{
+#welcome-section .welcome-container .welcome-container-content .welcome-text p{
   font-family: 'Assistant', sans-serif;
   font-size: 16px;
   color: grey;
@@ -26,28 +26,28 @@ body {
   margin-left: 30px;
 }
 
-h2 {
+#welcome-section h2 {
   letter-spacing: 1px;
   font-size: 36px;
   font-family: 'Assistant', sans-serif;
 }
   
-p {
+#welcome-section p {
   font-size: 1rem;
   line-height: 1.7;
   font-family: 'Old Standard TT', serif;
 }
   
-.btn-danger {
+#welcome-section .btn-danger {
   background-color: #b32b26;
   border: none;
   padding: 10px 25px;
   font-size: 1rem;
   border-radius: 4px;
-  margin-left: 30px;
+  margin-left: 65px;
 }
   
-.btn-danger:hover {
+#welcome-section .btn-danger:hover {
   background-color: #a12520;
 }
   
