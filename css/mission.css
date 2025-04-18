@@ -1,0 +1,49 @@
+.mission-section {
+    background: url('../images/mission.jpg.webp') center center/cover no-repeat;
+    position: relative;
+    padding-top: 80px !important;
+    height: 350px;
+  }
+  
+  /* .mission-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+  } */
+  
+  .mission-section .container-fluid {
+    position: relative;
+    z-index: 1;
+    margin: auto !important;
+    width: fit-content !important;
+  }
+
+  /* .mission-section .container-fluid .row{
+   width: 1400px;
+  } */
+  
+  .icon i {
+    font-size: 2rem;
+    color: #e63946;
+  }
+  
+  h4 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-family: 'Assistant', sans-serif;
+  }
+  p{
+    font-size: 14px;
+    font-family: 'Assistant', sans-serif;
+    padding: 0px 40px 0px 40px;
+  }
+  .br-line{
+    border-right: 1px solid rgb(132, 132, 132) !important;
+  }
+  .bl-line{
+    border-left: 1px solid rgb(132, 132, 132) !important;
+  }

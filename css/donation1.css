@@ -1,0 +1,23 @@
+.donation-section {
+    background: url('../images/donation.jpg.webp') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    position: relative;
+  }
+  .donation-section .content {
+    position: relative;
+    z-index: 1;
+  }
+  .donation-section a{
+    margin: auto;
+  }
+  .donation-section p{
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: left;
+  }
+  .donation-section .donation-box-r{
+    height: 400px;
+    width: 400px;
+  }
