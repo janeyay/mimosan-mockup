@@ -1,0 +1,43 @@
+#quote-section .quote-container {
+      position: relative;
+      max-width: 100%;
+      display: block;
+      align-items: center !important;
+      justify-content: center !important;
+      padding-top: 120px;
+      padding-bottom: 100px;
+      text-align: center;
+}
+
+#quote-section .quote-text {
+      font-family: 'Old Standard TT', serif;
+      font-size: 26px;
+      font-style: italic;
+      line-height: 1.7;
+      color: #464646;
+      z-index: 2;
+      position: relative;
+      align-items: center !important;
+      justify-content: center !important;
+      font-weight: normal;
+}
+
+#quote-section .quote-author {
+      margin-top: 1rem;
+      font-weight: 600;
+      font-family: 'Assistant', sans-serif;
+      font-size: 18px;
+      color: #b30000;
+      z-index: 2;
+      position: relative;
+}
+
+#quote-section .background-cross {
+      position: absolute;
+      top: 30%;
+      left: 45%;
+      width: 150px;
+      height: 150px;
+      background: url('../images/quote.png.webp') no-repeat center center;
+      background-size: contain;
+}

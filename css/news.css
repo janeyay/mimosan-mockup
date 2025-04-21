@@ -1,0 +1,62 @@
+#news-section .news-title {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+    text-align: left;
+    letter-spacing: 0.03rem;
+}
+#news-section .news-meta {
+    text-align: left;
+    align-items: left !important;
+    justify-content: left;
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+#news-section .news-meta p{
+    margin: 0 !important;
+    padding: 0px !important;
+    font-size: 12px;
+    color: #777;
+    font-family: 'Old Standard TT', serif;
+    font-weight: lighter !important;
+}
+#news-section .news-meta i {
+    margin-right: 5px;
+    color: crimson;
+}
+#news-section .news-card .news-description {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#news-section .news-card .news-description p{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Assistant', sans-serif;
+    font-size: 14px;
+    color: #8a8a8a;
+    font-style: normal !important;
+    text-align: left;
+}
+#news-section .news-card img {
+    width: 100%;
+    height: auto;
+}
+#news-section .news-card {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#news-section h2{
+    font-family: 'Assistant', sans-serif;
+    font-size: 36px;
+}
+#news-section p{
+    font-family: 'Old Standard TT', serif;
+    font-size: 16px;
+    font-style: italic;
+}
+#news-section{
+    margin-bottom: 50px;
+}
+

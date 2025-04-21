@@ -12,31 +12,49 @@
   .donation-section a{
     margin: auto;
   }
+
+  .donation-section h3{
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Assistant', sans-serif;
+  }
+
   .donation-section p{
     text-align: left;
+    margin: 20px 0px 0px 0px !important;
+    padding: 0px !important;
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+
   }
   .donation-section .donation-box-r{
-    height: 400px;
+    height: 350px;
     width: 400px;
-    border: 1px solid red;
+    border: 5px solid rgb(111, 199, 104);
     margin: auto !important;
   }
   .donation-section .container .row{
     gap:60px;
   }
-  .donation-section .donation-box-r > div span{
+  /* .donation-section .donation-box-r > div span{
     border: 1px solid red;
-  }
+  } */
   .button-effe{
     display: flex;
     justify-content: center;
-    border: 1px solid red
   }
   .donation-section .donation-box-r .remaining-p{
     width:150px;
     text-align: right;
     padding: 0px !important;
   }
-  .donation-section .centralizing{
-    padding-top:40px !important;
+  /* .donation-section .centralizing{
+    padding-left: 0px;
+    border: 1px solid red;
+    height: 350px;
+    width: 400px;
+    border: 1px solid red;
+  } */
+  .donation-section .donation-left{
+    border: 1px solid white;
   }
