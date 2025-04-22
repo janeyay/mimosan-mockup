@@ -17,11 +17,11 @@
 .footer .row{
     /* margin: auto !important; */
     margin-top: 30px !important;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 .footer-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 600;
     margin-bottom: 15px;
     font-family: 'Assistant', sans-serif;
 }
@@ -31,8 +31,7 @@
 }
 
 .footer-links ul {
-    list-style: none;
-    padding-left: 0;
+    padding-left:0 !important;
     margin-bottom: 0;
 }
 
@@ -48,17 +47,16 @@
 
 .footer-subscribe input[type="email"] {
     background-color: #495057;
-    border: 1px solid #495057;
     color: #f8f9fa;
     padding: 8px 12px;
     border-radius: 4px;
-    margin-right: 10px;
+    margin-right: 20px;
     font-family: 'Assistant', sans-serif;
 }
 
 .footer-subscribe button {
     background-color: #ffffff;
-    color: #ba2e2e;
+    color: #a22319;
     font-family: 'Assistant', sans-serif;
     border: none;
     padding: 8px 15px;
@@ -67,17 +65,61 @@
 }
 
 .footer-subscribe button:hover {
-    background-color: #c82333;
+    background-color: #a22319;
 }
 
 .footer-bottom {
     margin-top: 20px;
     padding-top: 15px;
     border-top: 1px solid #495057;
-    font-size: 0.8rem;
+    font-size: 14px;
     font-family: 'Assistant', sans-serif;
+    width: 1250px;
 }
 
 .footer-bottom a {
     margin-left: 15px;
+}
+.footer .row .footer-ff{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.footer .row .footer-ff .row{
+    margin: 0px !important;
+    padding: 0px !important;
+    justify-content: left !important;
+}
+.footer .container{
+    margin-left: 110px !important;
+    padding: 0px !important;
+}
+.footer .col-6{
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer .subscribe-search-b{
+    display: flex;
+    gap:0px;
+}
+.footer .subscribe-search-b input{
+    margin: 0px !important;
+    border-radius: 5px 0px 0px 5px !important;
+    background-color: transparent !important;
+    border: 1px solid #ffffff !important;
+}
+.footer .subscribe-search-b .btn{
+    border-radius: 0px 5px 5px 0px !important;
+    height:38px !important;
+    margin: 0px !important;;
+}
+.footer .footer-subscribe p{
+    margin: 0px 0px 20px 0px !important;
+    padding: 0px 0px 15px 0px !important;
+}
+.footer ul.footer-links{
+    margin: 0px !important;
+    padding: 0px  !important;
 }

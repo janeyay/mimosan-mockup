@@ -2,8 +2,9 @@
     background: url('../images/donation.jpg.webp') no-repeat center center;
     background-size: cover;
     color: white;
-    padding: 100px 0;
+    padding:35px;
     position: relative;
+    height: 550px;
   }
   .donation-section .content {
     position: relative;
@@ -15,46 +16,109 @@
 
   .donation-section h3{
     text-align: left;
-    font-weight: 600;
+    font-weight: 650;
     font-family: 'Assistant', sans-serif;
+    font-size: 34px;
   }
-
   .donation-section p{
     text-align: left;
     margin: 20px 0px 0px 0px !important;
     padding: 0px !important;
     font-size: 16px;
+    letter-spacing: 0.03rem;
     font-family: 'Assistant', sans-serif;
-
+    font-weight: 100;
+    color: #d6d6d6;
   }
-  .donation-section .donation-box-r{
+  .donation-section p em strong{
+    font-size: 14px;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 0.03rem;
+    font-weight: 100;
+    color: #cfcfcf;
+  }
+  .donation-section p em{
+    font-size: 14px;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 0.03rem;
+    font-weight: 100;
+    color: white;
+  }
+  .donation-section .progress {
+    height: 16px;
+    border-radius: 999px;
+    background-color: #ddd;
+  }
+  .donation-section .progress-bar {
+    background-color: #a22319;
+  }
+  .donation-section .donate-box {
+    width: 420px;
     height: 350px;
-    width: 400px;
-    border: 5px solid rgb(111, 199, 104);
-    margin: auto !important;
+    margin: 50px auto;
+    padding: 40px 30px 30px 30px;
+    background: white;
+    text-align: center;
   }
-  .donation-section .container .row{
-    gap:60px;
+  .donation-section .donate-box .donate-button {
+    background-color: #a22319;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    width: 350px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
   }
-  /* .donation-section .donation-box-r > div span{
-    border: 1px solid red;
-  } */
-  .button-effe{
+  .donation-section .donate-box .donate-button:hover {
+    background-color: #a22319;
+  }
+  .donation-section .donate-box .label-muted {
+    color: #070707;
+  }
+  .donation-section .donate-box .amounts {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding: 10px 0;
   }
-  .donation-section .donation-box-r .remaining-p{
-    width:150px;
+  .donation-section .donate-box .remaining-text {
+    font-style: italic;
+    color: #1e1e1e;
+    text-align: left;
+    word-spacing: 10px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+  }
+  .donation-section .donate-box .remaining-text strong{
+    font-size: 36px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    font-style: normal !important;
+    letter-spacing: 0.03rem;
+  }
+  .donation-section .donate-box .progress-percentage{
     text-align: right;
-    padding: 0px !important;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.03rem;
+    color: #262626;
   }
-  /* .donation-section .centralizing{
-    padding-left: 0px;
-    border: 1px solid red;
-    height: 350px;
-    width: 400px;
-    border: 1px solid red;
-  } */
-  .donation-section .donation-left{
-    border: 1px solid white;
+  .donation-section .donate-box .label-muted{
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03rem;
+    font-weight: 200;
+    color: #797979;
+  }
+  .donation-section .donate-box .label-muted strong{
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.03rem;
+    font-weight: 800;
+    color: #262626;
   }
