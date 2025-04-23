@@ -1,0 +1,77 @@
+.countdown-section {
+    position: relative;
+    z-index: 2;
+    padding: 1rem;
+  }
+  
+  .countdown-section section {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  
+  .countdown-section .container {
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(238, 237, 237);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .countdown-section .event-info h5 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+  }
+  
+  .countdown-section .event-info p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  
+  .date-box {
+    width: 70px;
+    height: 70px;
+    background-color: #a22319;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  
+  .countdown-timer > div h3 {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  
+  .countdown-timer > div small {
+    font-size: 10px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .countdown-section .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: auto;
+    }
+  
+    .date-box {
+      margin-bottom: 1rem;
+    }
+  
+    .countdown-timer {
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  
+    .event-info {
+      padding: 0 1rem;
+    }
+  }
+  

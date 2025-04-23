@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Mimosan Church</title>
   <link rel="stylesheet" href="../css/home.css">
   <link rel="stylesheet" href="../css/welcome.css">
@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="../css/image.css">
   <link rel="stylesheet" href="../css/news.css">
   <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/responsive.css">
 
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -28,7 +28,7 @@
 <body>
 
 <!-- Top Bar -->
-<div class="top-bar bg-dark text-white py-1 d-flex justify-content-between align-items-center top-bar">
+<div class="top-bar bg-dark text-white py-1 d-flex justify-content-between align-items-center">
   <small><i class="fas fa-envelope"></i> Email: infodeercreative@gmail.com</small>
   <small><i class="fas fa-phone"></i> Call Us: +1234 800 8080</small>
 </div>
@@ -40,16 +40,17 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav bg-white navbar-light">
       <li class="nav-item active"><a class="nav-link text-danger" href="#">HOME</a></li>
       <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
       <li class="nav-item"><a class="nav-link" href="#">SERMONS</a></li>
       <li class="nav-item"><a class="nav-link" href="#">EVENTS</a></li>
       <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
       <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+      <li class="nav-item d-block d-sm-none"><a href=""><i class="fa-solid fa-magnifying-glass" style='color:black'></i></a></li>
     </ul>
   </div>
-  <div>
+  <div class="d-none d-sm-block">
     <a href=""><i class="fa-solid fa-magnifying-glass" style='color:black'></i></a>
   </div>
 </nav>
@@ -64,27 +65,29 @@
   </div>
 </header>
 
-<!--Countdown -->
+<!-- Countdown -->
 <div class="countdown-section">
-<section class="">
-  <div class="container p-4 d-flex align-items-center">
-    <div class="date-box text-center text-white p-3 mr-4">
-      <h4 class="mb-0">18</h4>
-      <small>MAR</small>
+  <section>
+    <div class="container p-4 d-flex flex-wrap justify-content-between align-items-center">
+      <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <div class="date-box text-white text-center p-3 mb-3 mb-md-0 ">
+        <h4 class="mb-0">18</h4>
+        <small>MAR</small>
+      </div>
+      <div class="event-info mb-3 mb-md-0">
+        <h5 class="font-weight-bold mb-1">UPCOMING EVENT: EXPLORING THE CHRISTIAN FAITH</h5>
+        <p class="mb-1"><i class="far fa-clock"></i> 08:00 AM - 11:00 AM</p>
+        <p class="mb-0"><i class="fas fa-map-marker-alt"></i> 1195 Lobortis Rd, New Orleans, New Hampshire</p>
+      </div>
+      </div>
+      <div class="countdown-timer d-flex text-center">
+        <div class="p-4"><h3 id="cd-days">2</h3><small>DAY</small></div>
+        <div class="p-4"><h3 id="cd-hours">23</h3><small>HRS</small></div>
+        <div class="p-4"><h3 id="cd-minutes">58</h3><small>MIN</small></div>
+        <div class="p-4"><h3 id="cd-seconds">2</h3><small>SEC</small></div>
+      </div>
     </div>
-    <div>
-      <h5 class="font-weight-bold">UPCOMING EVENT: EXPLORING THE CHRISTIAN FAITH</h5>
-      <p class="mb-1"><i class="far fa-clock"></i> 08:00 AM - 11:00 AM</p>
-      <p class="mb-0"><i class="fas fa-map-marker-alt"></i> 1195 Lobortis Rd, New Orleans, New Hampshire</p>
-    </div>
-    <div class="ml-auto text-center d-flex">
-      <div class="px-3"><h3>2</h3><small>DAY</small></div>
-      <div class="px-3"><h3>23</h3><small>HRS</small></div>
-      <div class="px-3"><h3>58</h3><small>MIN</small></div>
-      <div class="px-3"><h3>2</h3><small>SEC</small></div>
-    </div>
-  </div>
-</section>
+  </section>
 </div>
 
 <!-- welcome-to-our-church-section -->
