@@ -38,6 +38,7 @@
 .footer-links li {
     margin-bottom: 8px;
     font-family: 'Assistant', sans-serif;
+    list-style: none !important;
 }
 
 .footer-subscribe p {
@@ -123,3 +124,19 @@
     margin: 0px !important;
     padding: 0px  !important;
 }
+.footer i{
+    margin-right:8px;
+    color: rgb(178, 16, 16);
+    font-size: 12px;
+  }
+  .footer .footer-bottom a i{
+    color: white !important;
+  }
+  .footer .footer-contact p{
+    margin-left: 0px !important;
+    padding: 0px !important;
+  }
+  .footer .footer-links li{
+    font-size: 14px !important;
+    color: white !important;
+  }

@@ -6,63 +6,142 @@
   }
 
   .navbar {
-    padding: 10px 60px !important;
+    padding: 0px 15px 0px 15px !important;
     text-align: center;
     background-color: white !important;
     z-index: 4;
+    height: 80px;
   }
   .navbar .navbar-nav{
     gap: 5px !important;
-    padding: 10px !important;
+    padding: 0px 10px 10px 10px  !important;
   }
-
+   
+  .header-section{
+    height: 780px;
+  }
+  .header-section .content{
+    margin-top: 200px !important;
+  }
   .header-section h1 {
-    font-size: 28px;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 0px 20px 0px 20px;
   }
 
   .header-section p {
-    font-size: 14px;
-    padding: 0 20px;
+    font-size: 16px;
+    padding: 0 70px;
   }
  
+
+  /* welcome-part */
   .welcome-container {
     padding: 0 20px !important;
     margin-top: 30px !important;
+    margin-bottom: 50px ;
   }
 
   #welcome-section img {
     width: 100%;
     height: auto;
   }
+  #welcome-section .welcome-container h2{
+    font-size: 24px;
+  }
+  #welcome-section .welcome-container p{
+    font-size: 14px;
+  }
   #welcome-section .welcome-container .welcome-container-content .welcome-text p{
     width: 100%;
     text-align: justify;
     margin: 0px !important;
     padding: 0px !important;
+    font-size:14px;
+    color: rgb(164, 163, 163);
   }
   #welcome-section .btn-danger {
     margin-left: 0px !important;
+    margin-top: 30px !important;
   }
 
+  /* #sermons-section .container .row .card .card-body .d-inline{
+    border: 2px solid black;
+    width: min-content;
+    padding: 0px !important;
+    font-style: italic;
+    margin: 0px !important;
+  } */
+  #sermons-section .container .row .card .card-body .pastor:nth-child(1){
+    color: red !important;
+  }
+
+  /* event-part */
+  #event-section .container-fluid h2{
+    font-size: 24px;
+  }
+  #event-section .container-fluid p{
+    font-size: 14px;
+  }
+  #event-section .row .event-box{
+    margin: 0px 0px 50px 0px !important;
+  }
+  #event-section .event-info .event-meta p{
+    font-size: 11px !important;
+    color: rgb(156, 156, 156);
+    letter-spacing: 0.03rem;
+    margin-top: 10px !important;
+  }
+  /* #event-section .event-box {
+    margin-bottom: 20px;
+  } */
 
 
+  /* donation-part */
   .donation-section {
     height: auto;
     padding: 20px;
   }
-
+  .donation-section .donation-left{
+    padding: 70px 0px 0px 0px !important;
+  }
+  .donation-section .donation-left h3{
+    font-size: 24px;
+  }
+  .donation-section .donation-left p em{
+    font-size: 14px !important;
+  }
+  .donation-section .donation-left p{
+    font-size: 14px !important;
+  }
   .donation-left, .donate-box {
     width: 100% !important;
     margin: 0 auto;
+  }
+  .donation-left, .donate-box .remaining-text{
+    font-size: 16px !important;
+  }
+  .donation-left, .donate-box .progress-percentage{
+    font-size: 16px !important;
+  }
+  .donation-left, .donate-box .remaining-text strong{
+    font-size: 24px !important;
   }
 
   .donate-box {
     height: auto;
   }
+  .donation-left, .donate-box .amounts .label-muted{
+    font-size: 16px !important;
+  }
 
   .donate-box .donate-button {
     width: 100%;
+    font-size: 16px !important;
   }
+
+
+  /* mission-part */
   .mission-section{
     height: 600px;
   }
@@ -75,21 +154,68 @@
     border: none !important;
   }
 
-  #event-section .event-box {
-    margin-bottom: 20px;
+
+  /* quote-part */
+  #quote-section{
+    margin: 0px !important;
+  }
+  #quote-section .quote-container{
+     margin: 0px;
+  }
+  #quote-section .background-cross{
+    left: 170px;
+  }
+
+  /* image-part */
+  #image-section{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  #image-section .container-fluid{
+    margin: 0px !important;
   }
 
   #image-section .col-5th {
     flex: 0 0 50%;
   }
+
+
+  /* news-part */
+
+  #news-section .container{
+    margin-top: 90px !important;
+  }
+  #news-section h2{
+    font-size: 24px;
+  }
+  #news-section p{
+    font-size: 16px;
+  }
+
+  /* footer */
   .footer{
     height: 870px;
   }
+  .footer .col-md-4{
+    margin: 0px 0px 0px 3px !important;
+    padding: 0px !important;
+
+  }
   .footer .row{
     flex-direction: column !important;
+    padding: 0px !important;
   }
   .footer .footer-ff {
     flex-direction: column !important;
+  }
+
+  .footer .footer-contact p{
+    margin-left: 0px !important;
+    padding: 0px !important;
+  }
+  .footer .footer-links li{
+    font-size: 14px !important;
+    color: white !important;
   }
 
   .footer-bottom {
@@ -97,12 +223,20 @@
     width: 100% !important;
     text-align: center;
   }
+  .footer .footer-bottom a i{
+    color: white !important;
+  }
 
   .footer .container {
     margin-left: 20px !important;
   }
   .footer .footer-subscribe{
     width: 450px;
+  }
+  .footer i{
+    margin-right:8px;
+    color: rgb(178, 16, 16);
+    font-size: 12px;
   }
 }
 
@@ -170,6 +304,9 @@
 .donation-section{
     height: 900px;
 }
+.donation-section .container {
+    padding: 70px !important;
+}
   .donation-left, .donate-box {
     width: 100% !important;
   }
@@ -189,7 +326,7 @@
     flex: 0 0 33.33%;
   }
 
-  .footer .footer-ff {
+  /* .footer .footer-ff {
     flex-direction: column;
     gap: 30px;
   }
@@ -198,7 +335,73 @@
     width: 100% !important;
     text-align: center;
     flex-direction: column;
+  } */
+
+  /* footer */
+  .footer{
+    height: 900px;
+    
   }
+  .footer .col-md-4{
+    margin: 0px 0px 0px 3px !important;
+    padding: 0px !important;
+
+  }
+  .footer .row{
+    flex-direction: column !important;
+    padding: 0px !important;
+  }
+  .footer .footer-ff {
+    flex-direction: column !important;
+    margin-left: 100px;
+  }
+
+  .footer .footer-contact p{
+    margin-left: 0px !important;
+    padding: 0px !important;
+  }
+  .footer .footer-links li{
+    font-size: 14px !important;
+    color: white !important;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    width: 100% !important;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .footer-bottom p {
+    margin-bottom: 15px !important;
+    margin-top: 10px !important;
+  }
+  .footer .footer-bottom a i{
+    color: white !important;
+
+  }
+
+  .footer .container {
+    margin-left: 20px !important;
+  }
+  .footer .footer-subscribe{
+    width: 700px;
+  }
+  .footer .footer-subscribe .btn-danger{
+    font-size: 12px !important;
+    font-weight: bold !important;
+  }
+  .footer i{
+    margin-right:8px;
+    color: rgb(178, 16, 16);
+    font-size: 12px;
+  }
+
+  #quote-section .background-cross {
+    position: absolute;
+    top: 30%;
+    left: 42% !important;
+  }
+
 }
 
 /* Large devices (desktops) */

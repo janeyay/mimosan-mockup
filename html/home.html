@@ -34,23 +34,30 @@
 </div>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
   <a class="navbar-brand font-weight-bold" href="#"><img src="../images/logo.png.webp" alt="logo" style="height: 50px; margin-right: 10px;"> MIMOSAN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
     <ul class="navbar-nav bg-white navbar-light">
+      <li class="nav-item d-block d-lg-none"> <div class="col-md-4">
+        <div class="footer-subscribe">
+            <div class="subscribe-search-b">
+                <input type="email" class="form-control mr-2 bg-light mt-4" placeholder="Search">
+            </div>
+        </div>
+    </div></li>
       <li class="nav-item active"><a class="nav-link text-danger" href="#">HOME</a></li>
       <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
       <li class="nav-item"><a class="nav-link" href="#">SERMONS</a></li>
       <li class="nav-item"><a class="nav-link" href="#">EVENTS</a></li>
       <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
       <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
-      <li class="nav-item d-block"><a href=""><i class="fa-solid fa-magnifying-glass" style='color:black'></i></a></li>
+      
     </ul>
   </div>
-  <div class="d-none d-lg-none">
+  <div class="d-none d-lg-block">
     <a href=""><i class="fa-solid fa-magnifying-glass" style='color:black'></i></a>
   </div>
 </nav>
@@ -61,7 +68,7 @@
   <div class="content position-relative">
     <h1 class="display-6 font-weight-bold">BELIEF IN GOD AS FATHER AND HOLY SPIRIT IS AT THE HEART OF OUR FAITH.</h1>
     <p class="lead mt-3">God has revealed himself through the Bible. God has revealed himself most clearly through the gift of his Son, Jesus Christ. God makes himself known personally to each believer through the work of the Holy Spirit.</p>
-    <a href="#" class="btn btn-danger mt-4 px-4 py-2 font-weight-bold">JOIN WITH US</a>
+    <a href="#" class="btn mt-4 px-4 py-2 font-weight-bold">JOIN WITH US</a>
   </div>
 </header>
 
@@ -81,10 +88,10 @@
       </div>
       </div>
       <div class="countdown-timer d-flex text-center">
-        <div class="p-4"><h3 id="cd-days">2</h3><small>DAY</small></div>
-        <div class="p-4"><h3 id="cd-hours">23</h3><small>HRS</small></div>
-        <div class="p-4"><h3 id="cd-minutes">58</h3><small>MIN</small></div>
-        <div class="p-4"><h3 id="cd-seconds">2</h3><small>SEC</small></div>
+        <div class="px-4"><h3 id="cd-days">2</h3><small>DAY</small></div>
+        <div class="px-4 b-l"><h3 id="cd-hours">23</h3><small>HRS</small></div>
+        <div class="px-4 b-l-r"><h3 id="cd-minutes">58</h3><small>MIN</small></div>
+        <div class="px-4"><h3 id="cd-seconds">2</h3><small>SEC</small></div>
       </div>
     </div>
   </section>
@@ -128,10 +135,10 @@
         <div class="card">
           <img src="../images/sermon_1.jpg.webp" class="card-img-top" alt="Church">
           <div class="card-body text-center">
-            <div class="sermon-title">SERMONS ON PRAYER: RUNNING WELL, FINISHING STRONG</div>
-            <p class="pastor mt-2 mb-1">Pastor: Josh Brighton</p>
-            <p class="categories mt-0">Categories: God, Prayer</p>
-            <div class="icon-list  d-flex justify-content-center mt-4">
+            <div class="sermon-title mt-3 mb-2">SERMONS ON PRAYER: RUNNING WELL, FINISHING STRONG</div>
+            <div class="pastor mt-0 mb-0"><p class="d-inline">Pastor:</p> <p class="d-inline text-danger">Josh Brighton</p></div>
+            <div class="categories mt-0"><p class="d-inline">Categories:</p> <p class="d-inline text-danger">God, Prayer</p></div>
+            <div class="icon-list  d-flex justify-content-center mt-4 mb-4">
              <div class="bg-round flex justify-center-center"> <i class="fas fa-link"></i></div>
              <div class="bg-round"> <i class="fas fa-file-alt"></i> </div>
              <div class="bg-round"> <i class="fab fa-facebook-f"></i></div>
@@ -146,10 +153,10 @@
         <div class="card">
           <img src="../images/sermon_2.jpg.webp" class="card-img-top" alt="Faith">
           <div class="card-body text-center">
-            <div class="sermon-title">SERMONS ON FAITH: A LIFE WORTH LIVING, A NEW PURPOSE</div>
-            <p class="pastor mt-2 mb-1">Pastor: Julia Amber</p>
-            <p class="categories mt-0">Categories: God, Faith</p>
-            <div class="icon-list d-flex justify-content-center mt-4">
+            <div class="sermon-title mt-3 mb-2">SERMONS ON FAITH: A LIFE WORTH LIVING, A NEW PURPOSE</div>
+            <div class="pastor mt-0 mb-0"><p class="d-inline">Pastor:</p> <p class="d-inline text-danger">Josh Brighton</p></div>
+            <div class="categories mt-0"><p class="d-inline">Categories:</p> <p class="d-inline text-danger">God, Prayer</p></div>
+            <div class="icon-list  d-flex justify-content-center mt-4 mb-4">
              <div class="bg-round flex justify-center-center"> <i class="fas fa-link"></i></div>
              <div class="bg-round"> <i class="fas fa-file-alt"></i> </div>
              <div class="bg-round"> <i class="fab fa-facebook-f"></i></div>
@@ -164,17 +171,15 @@
         <div class="card">
           <img src="../images/sermon_3.jpg.webp" class="card-img-top" alt="Prayer">
           <div class="card-body text-center">
-            <div class="sermon-title">SERMONS FOR COMMUNION SERVICES: COME TO THE TABLE</div>
-            <p class="pastor mt-2 mb-1">Pastor: Ashley Young</p>
-            <p class="categories mt-0">Categories: God, Communion</p>
-            <div class="icon-list d-flex justify-content-center mt-4">
-              <div class="bg-round flex justify-center-center"> <i class="fas fa-link"></i></div>
+            <div class="sermon-title mt-3 mb-2">SERMONS FOR COMMUNION SERVICES: COME TO THE TABLE</div>
+            <div class="pastor mt-0 mb-0"><p class="d-inline">Pastor:</p> <p class="d-inline text-danger">Josh Brighton</p></div>
+            <div class="categories mt-0"><p class="d-inline">Categories:</p> <p class="d-inline text-danger">God, Prayer</p></div>
+            <div class="icon-list  d-flex justify-content-center mt-4 mb-4">
+             <div class="bg-round flex justify-center-center"> <i class="fas fa-link"></i></div>
              <div class="bg-round"> <i class="fas fa-file-alt"></i> </div>
              <div class="bg-round"> <i class="fab fa-facebook-f"></i></div>
              <div class="bg-round"> <i class="fas fa-download"></i></div>
             </div>
-          </div>
-        </div>
       </div>
 
     </div>
@@ -219,7 +224,7 @@
 <section id="event-section">
 <div class="container-fluid py-5">
   <div class="section-title">
-    <h2>Upcoming Events</h2>
+    <h2>UPCOMING EVENTS</h2>
     <p>Experience God’s Presence</p>
   </div>
 
@@ -411,9 +416,9 @@
           <div class="col-md-4">
               <div class="footer-logo"> <img src="../images/logo_2.png.webp" alt="">MIMOSAN</div>
               <div class="footer-contact">
-                  <p>1235 Lobster's Rd, New Orleans, New Hampshire</p>
-                  <p>+1 234 000 8080</p>
-                  <p><a href="mailto:info.deercreative@gmail.com">info.deercreative@gmail.com</a></p>
+                  <p><i class="fa-solid fa-location-dot"></i>1235 Lobster's Rd, New Orleans, New Hampshire</p>
+                  <p><i class="fa-solid fa-phone"></i>+1 234 000 8080</p>
+                  <p><a href="mailto:info.deercreative@gmail.com"><i class="fa-solid fa-envelope"></i>info.deercreative@gmail.com</a></p>
               </div>
           </div>
           <div class="col-md-4">
@@ -421,18 +426,18 @@
               <div class="row">
                   <div class="col-6">
                       <ul class="footer-links">
-                          <li><a href="#">About us</a></li>
-                          <li><a href="#">Contact</a></li>
-                          <li><a href="#">Donation</a></li>
-                          <li><a href="#">Blog</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>About us</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>Contact</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>Donation</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>Blog</a></li>
                       </ul>
                   </div>
                   <div class="col-6">
                       <ul class="footer-links">
-                          <li><a href="#">Sermons</a></li>
-                          <li><a href="#">Events</a></li>
-                          <li><a href="#">Service</a></li>
-                          <li><a href="#">Media</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>Sermons</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>Events</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>Service</a></li>
+                          <li><a href="#"><i class="fa-solid fa-angles-right"></i>Media</a></li>
                       </ul>
                   </div>
               </div>

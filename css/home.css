@@ -1,3 +1,4 @@
+
 .top-bar{
   height: 40px;
   /* padding: 0px 50px 0px 50px !important; */
@@ -86,8 +87,9 @@
     text-align: center;
   }
 
-  .herder-section .content a{
-    background-color: #a22319;
+  .header-section .content a{
+    background-color: #be1b0f !important;
+    color: white;
   }
 
   .countdown-section {
@@ -152,19 +154,33 @@
   }
   
   @media (max-width: 768px) {
+    body{
+      overflow-x: hidden;
+    }
+    .navbar{
+       /* position: sticky !important; */
+    }
+     .navbar .navbar-toggler{
+       border: none;
+
+     }
+     .countdown-section{
+       margin-top: 80px !important;
+     }
     .countdown-section .container {
       flex-direction: column;
       align-items: center;
       text-align: center;
       justify-content: center !important;
-      height: auto;
+      height: 410px;
       margin: 0px !important;
-      padding: 0px !important;
+      padding:0px !important;
       background-color: transparent !important;
+      gap: 0px !important;
     }
     .countdown-section .container > div:nth-child(1){
       padding-top: 40px !important;
-      padding-bottom: 20px !important;
+      /* padding-bottom: 20px !important; */
     }
     .countdown-section section {
       position: static;
@@ -180,14 +196,26 @@
   
     .countdown-timer {
       justify-content: center;
-      margin-top: 1rem;
+      padding: 0px !important;
+      margin: 0px !important;
     }
   
     .event-info {
       padding: 0 1rem;
     }
+    .countdown-section .event-info h5 {
+      font-size: 16px;
+      margin: 10px 0px 0px 0px !important;
+      width: max-content;
   }
-
+   .countdown-section .event-info p {
+    font-size: 12px;
+    font-style: italic;
+    padding: 0px;
+    color: #787878;
+    margin-top: 10px;
+}
+}
   @media (min-width: 768px) and (max-width: 991.98px) {
     .countdown-section .container {
       flex-direction: column;
@@ -195,12 +223,12 @@
       text-align: center;
       justify-content: center !important;
       height: 380px;
-      margin: 0px !important;
+      margin: 80px 0px 0px 0px !important;
       padding: 0px !important;
       /* background-color: transparent !important; */
       background-color: rgb(240, 240, 240);
       gap: 15px;
-      width: 600px;
+      width: 620px;
     }
     .countdown-section .container > div:nth-child(1){
       padding-top: 20px !important;
@@ -215,17 +243,34 @@
       
     }
   
-    .date-box {
+    .countdown-section .date-box {
       margin: auto;
     }
   
-    .countdown-timer {
+    .countdown-section .countdown-timer {
       justify-content: center;
     }
   
-    .event-info {
+    .countdown-section .event-info {
       padding: 0 1rem;
       margin-top: 20px;
+    }
+    .countdown-section .event-info p i{
+      color:#be1b0f;
+      margin-right: 5px;
+    }
+    .countdown-section .event-info p{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-style: italic;
+      color: #abaaaa;
+    }
+    .b-l-r{
+      border-left:1px solid rgb(173, 172, 172) ;
+      border-right:1px solid rgb(173, 172, 172);
+    }
+    .b-l{
+      border-left:1px solid rgb(173, 172, 172) ;
     }
   }
   
