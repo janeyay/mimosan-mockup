@@ -187,6 +187,47 @@
       padding: 0 1rem;
     }
   }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .countdown-section .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center !important;
+      height: 380px;
+      margin: 0px !important;
+      padding: 0px !important;
+      /* background-color: transparent !important; */
+      background-color: rgb(240, 240, 240);
+      gap: 15px;
+      width: 600px;
+    }
+    .countdown-section .container > div:nth-child(1){
+      padding-top: 20px !important;
+      display: flex;
+      flex-direction: column;
+    }
+    .countdown-section section {
+      position: static;
+      padding: 0px 50px !important;
+      justify-content: center !important;
+      display: flex;
+      
+    }
+  
+    .date-box {
+      margin: auto;
+    }
+  
+    .countdown-timer {
+      justify-content: center;
+    }
+  
+    .event-info {
+      padding: 0 1rem;
+      margin-top: 20px;
+    }
+  }
   
   
  

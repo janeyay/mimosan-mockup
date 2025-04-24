@@ -109,13 +109,67 @@
 /* Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar {
-    padding: 0 40px !important;
+    padding: 10px 60px !important;
+    text-align: center;
+    background-color: white !important;
+    z-index: 4;
+  }
+  .navbar .navbar-nav{
+    gap: 5px !important;
+    padding: 10px !important;
   }
 
   .welcome-container {
-    padding: 0 40px !important;
+    padding: 0 20px !important;
+    margin-top: 30px !important;
   }
 
+  #welcome-section img {
+    width: 650px !important;
+    height: auto;
+  }
+
+  #welcome-section .welcome-container .welcome-container-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #welcome-section .welcome-container .welcome-container-content .welcome-text p{
+    width: 800px;
+    text-align: justify;
+    margin: 10px 50px 10px 50px !important;
+    padding: 10px 50px 10px 100px !important;
+  }
+  #welcome-section .btn-danger {
+    margin-left: 150px !important;
+  }
+
+
+
+  #event-section .container-fluid .row .col-lg-4{
+    display: flex;
+    justify-content: center !important;
+    
+  }
+
+  #event-section .container-fluid .row .event-box{
+    margin: auto;
+    margin-bottom: 30px !important;
+  }
+
+  #event-section .container-fluid .row .event-box .event-img img{
+    height: 350px;
+    width: 650px;
+  }
+
+  #event-section .container-fluid .row .event-box .event-info{
+    padding: 0px 0px 0px 20px !important;
+  }
+
+
+.donation-section{
+    height: 900px;
+}
   .donation-left, .donate-box {
     width: 100% !important;
   }
